@@ -13,6 +13,7 @@ function share(thingsToShare) {
       presentViewController.barButtonItem = page.ios.navigationItem.rightBarButtonItems[0];
     } else {
       presentViewController.sourceView = page.ios.view;
+      presentViewController.sourceRect = CGRectMake(100,500,100,100);
     }
   }
 
